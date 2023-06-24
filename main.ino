@@ -1,3 +1,5 @@
+// criador gabriel oliveira
+
 #include <WiFi.h>
 #include <HTTPClient.h>
 
@@ -6,7 +8,6 @@ String serverName = "https://jsonplaceholder.typicode.com/todos/1";
 
 unsigned long lastTime = 0;
 unsigned long lastDelay = 50000;
-
 
 void setupwifi() {
   char* ssid = "AP_1008_2.4";
